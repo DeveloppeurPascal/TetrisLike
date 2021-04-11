@@ -1,0 +1,45 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Tetris Like'
+  ClientHeight = 721
+  ClientWidth = 692
+  Fill.Color = claSteelblue
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  DesignerMasterStyle = 0
+  object zoneJeu: TRectangle
+    Align = Center
+    Fill.Color = claBlack
+    Size.Width = 100.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object lblScore: TLabel
+    Align = Top
+    Size.Width = 692.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'lblScore'
+    TabOrder = 1
+  end
+  object btnJouer: TButton
+    Align = Center
+    Default = True
+    TabOrder = 0
+    Text = 'Jouer'
+    OnClick = btnJouerClick
+  end
+  object BoucleDuJeu: TTimer
+    Interval = 16
+    OnTimer = BoucleDuJeuTimer
+    Left = 400
+    Top = 184
+  end
+end
