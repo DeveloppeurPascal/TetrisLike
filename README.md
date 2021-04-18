@@ -1,11 +1,16 @@
 # Tetris Like
 Un "Tetris" en guise de démonstration de développement de jeu vidéo avec Delphi et FireMonkey.
 
-Ce programme a été développé lors d'un livestream sur Twitch le 11 avril 2021. Il est disponible en tant que ressource éducative mais ne doit pas être diffusé en dehors d'un lien vers ce dépôt.
+Ce programme a été développé lors d'un livestream sur Twitch le 11 et le 18 avril 2021. Il est disponible en tant que ressource éducative mais ne doit pas être diffusé en dehors d'un lien vers ce dépôt.
 
-La rediffusion de la création est disponible en rediffusion sur Twitch pendant 2 mois sur https://www.twitch.tv/videos/983639937
+La rediffusion de la création est disponible en rediffusion sur Twitch pendant 2 mois sur https://www.twitch.tv/premartinpatric (vidéos du dimanche 11 avril 2021 après-midi et du 18 avril matin)
 
-Si vous n'avez pas Delphi pour compiler et tester le jeu, vous pouvez télécharger le programme pour [Windows 10](https://www.dropbox.com/s/5ufpff24h7rjnkq/TetrisLike.msix?dl=1) et pour [Mac OS](https://www.dropbox.com/s/t1krc83e95yncq5/TetrisLike.zip?dl=1).
+Si vous n'avez pas Delphi pour compiler et tester le jeu, vous pouvez télécharger le programme pour:
+* [Windows 10 32 bits](https://www.dropbox.com/s/b530kkya4hn8ylp/tetrislike-32bits.msix?dl=1) 
+* [Windows 10 64 bits](https://www.dropbox.com/s/fb50x8szuo2bm5f/tetrislike-64bits.msix?dl=1) 
+* [Mac OS](https://www.dropbox.com/s/t1krc83e95yncq5/TetrisLike.zip?dl=1)
+* [Android 32 bits](https://www.dropbox.com/s/81xo6qrrwchmh1q/tetrislike-32bits.apk?dl=1)
+* [Android 64 bits](https://www.dropbox.com/s/lp0y1jhlgpo8mx3/tetrislike-64bits.apk?dl=1)
 
 -----
 

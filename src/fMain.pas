@@ -37,6 +37,7 @@ type
     ClicRotationHaut: TLayout;
     clicRotationImg: TPath;
     ShadowEffect4: TShadowEffect;
+    StyleBook1: TStyleBook;
     procedure FormCreate(Sender: TObject);
     procedure btnJouerClick(Sender: TObject);
     procedure BoucleDuJeuTimer(Sender: TObject);
