@@ -14,6 +14,15 @@ Si vous n'avez pas Delphi pour compiler et tester le jeu, vous pouvez téléchar
 
 -----
 
+TODO :
+
+* gérer la touche ESC sur desktop pour sortir du programme
+* gérer touche HARDWARE BACK sur Android
+* gérer pause en cas de perte de focus de l’application sur tablettes et smartphones
+* gérer bouton pause sur plateformes desktop
+
+-----
+
 Pictos provenant de https://materialdesignicons.com/
 
 https://materialdesignicons.com/icon/arrow-left-bold-outline
