@@ -11,24 +11,8 @@ object frmMain: TfrmMain
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   OnKeyDown = FormKeyDown
+  OnResize = FormResize
   DesignerMasterStyle = 0
-  object zoneJeu: TRectangle
-    Align = Center
-    Fill.Color = claBlack
-    Size.Width = 100.000000000000000000
-    Size.Height = 100.000000000000000000
-    Size.PlatformDefault = False
-    Stroke.Kind = None
-  end
-  object lblScore: TLabel
-    Align = Top
-    Size.Width = 692.000000000000000000
-    Size.Height = 33.000000000000000000
-    Size.PlatformDefault = False
-    TextSettings.HorzAlign = Center
-    Text = 'lblScore'
-    TabOrder = 1
-  end
   object btnJouer: TButton
     Align = Center
     Default = True
@@ -41,5 +25,30 @@ object frmMain: TfrmMain
     OnTimer = BoucleDuJeuTimer
     Left = 400
     Top = 184
+  end
+  object zoneEcran: TScaledLayout
+    Align = Center
+    OriginalWidth = 50.000000000000000000
+    OriginalHeight = 50.000000000000000000
+    object lblScore: TLabel
+      Align = Top
+      StyledSettings = [Family, Size]
+      Size.Width = 50.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      TextSettings.HorzAlign = Center
+      Text = 'lblScore'
+      TabOrder = 1
+    end
+    object zoneJeu: TRectangle
+      Align = Contents
+      Fill.Color = claBlack
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
   end
 end

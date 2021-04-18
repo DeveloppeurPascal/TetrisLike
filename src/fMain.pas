@@ -21,11 +21,13 @@ type
     lblScore: TLabel;
     BoucleDuJeu: TTimer;
     zoneJeu: TRectangle;
+    zoneEcran: TScaledLayout;
     procedure FormCreate(Sender: TObject);
     procedure btnJouerClick(Sender: TObject);
     procedure BoucleDuJeuTimer(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
       Shift: TShiftState);
+    procedure FormResize(Sender: TObject);
   private
     { Déclarations privées }
     FScore: integer;
@@ -39,6 +41,7 @@ type
     procedure PartiePerdue;
     procedure FigerPiece;
     procedure SetPartieEnCours(const Value: boolean);
+    procedure RetailleZoneEcran;
   public
     { Déclarations publiques }
     GrilleDeJeu: TGrilleDeJeu;
@@ -166,6 +169,7 @@ end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
+  lblScore.BringToFront;
   PieceEnCours := nil;
   Score := 0;
   NiveauDuJeu := CTailleBloc;
@@ -202,14 +206,22 @@ begin
   end;
 end;
 
+procedure TfrmMain.FormResize(Sender: TObject);
+begin
+  RetailleZoneEcran;
+end;
+
 procedure TfrmMain.InitialiseEcran;
 var
   i, j: integer;
 begin
   if assigned(PieceEnCours) then
     FreeAndNil(PieceEnCours);
-  zoneJeu.width := CTailleBloc * CNBColonnes;
-  zoneJeu.height := CTailleBloc * CNBLignes;
+  // zoneJeu.width := CTailleBloc * CNBColonnes;
+  // zoneJeu.height := CTailleBloc * CNBLignes;
+  zoneEcran.originalwidth := CTailleBloc * CNBColonnes;
+  zoneEcran.originalheight := CTailleBloc * CNBLignes;
+  RetailleZoneEcran;
   while (zoneJeu.ChildrenCount > 0) do
     zoneJeu.Children[0].free;
   for i := 1 to CNBColonnes do
@@ -237,6 +249,22 @@ begin
   begin
     InitialiseEcran;
     AjouteUnePiece;
+  end;
+end;
+
+procedure TfrmMain.RetailleZoneEcran;
+var
+  RatioW, RatioH: single;
+begin
+  RatioW := (ClientWidth - 100) / zoneEcran.originalwidth;
+  RatioH := (ClientHeight - 100) / zoneEcran.originalheight;
+
+  zoneEcran.width := zoneEcran.originalwidth * RatioW;
+  zoneEcran.height := zoneEcran.originalheight * RatioW;
+  if (zoneEcran.width >= ClientWidth) or (zoneEcran.height >= ClientHeight) then
+  begin
+    zoneEcran.width := zoneEcran.originalwidth * RatioH;
+    zoneEcran.height := zoneEcran.originalheight * RatioH;
   end;
 end;
 
