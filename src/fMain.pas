@@ -59,6 +59,9 @@ implementation
 
 {$R *.fmx}
 
+uses
+  System.StrUtils;
+
 procedure TfrmMain.AjouteUnePiece;
 var
   Piece: TTetrisPiece;
@@ -217,8 +220,6 @@ var
 begin
   if assigned(PieceEnCours) then
     FreeAndNil(PieceEnCours);
-  // zoneJeu.width := CTailleBloc * CNBColonnes;
-  // zoneJeu.height := CTailleBloc * CNBLignes;
   zoneEcran.originalwidth := CTailleBloc * CNBColonnes;
   zoneEcran.originalheight := CTailleBloc * CNBLignes;
   RetailleZoneEcran;
@@ -243,7 +244,8 @@ begin
   if PartieEnCours then
   begin
     PartieEnCours := false;
-    showmessage('Perdu');
+    showmessage('Perdu avec un score est de ' + Score.ToString + ' point' +
+      ifthen((Score > 1), 's', '')+'.');
   end
   else
   begin
