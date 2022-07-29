@@ -3,14 +3,9 @@ Un "Tetris" en guise de démonstration de développement de jeu vidéo avec Delp
 
 Ce programme a été développé lors d'un live stream sur Twitch le 11 et le 18 avril 2021. Il est disponible en tant que ressource éducative mais ne doit pas être diffusé en dehors d'un lien vers ce dépôt.
 
-Si vous n'avez pas Delphi pour compiler et tester le jeu, vous pouvez télécharger le programme pour:
-* [Windows 10 32 bits](https://www.dropbox.com/s/b530kkya4hn8ylp/TetrisLike-32bits.msix?dl=1) 
-* [Windows 10 64 bits](https://www.dropbox.com/s/fb50x8szuo2bm5f/TetrisLike-64bits.msix?dl=1) 
-* [Mac OS](https://www.dropbox.com/s/t1krc83e95yncq5/TetrisLike-macOS64.zip?dl=1)
-* [Android 32 bits](https://www.dropbox.com/s/81xo6qrrwchmh1q/TetrisLike-32bits.apk?dl=1)
-* [Android 64 bits](https://www.dropbox.com/s/lp0y1jhlgpo8mx3/TetrisLike-64bits.apk?dl=1)
+Si vous n'avez pas Delphi pour compiler et tester le jeu, vous pouvez le téléchjarger depuis la rubrique RELEASE du projet : https://github.com/DeveloppeurPascal/TetrisLike/releases
 
-Pour voir comment ce logiciel a été développer, vous pouvez consulter les rediffusions des sessions de codage sur Twitch :
+Pour voir comment ce logiciel a été développé, vous pouvez consulter les rediffusions des sessions de codage sur Twitch :
 * sur [Serial Streameur](https://serialstreameur.fr) avec des centaines d'heures de codage de logiciels et jeux vidéos depuis [la page du projet Tetris Like](https://serialstreameur.fr/jv-tetris-like.php),
 * en VOD sur [Vimeo on demand](https://vimeo.com/ondemand/tetrislike).
 
