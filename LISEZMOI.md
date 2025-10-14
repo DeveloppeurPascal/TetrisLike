@@ -1,5 +1,7 @@
 # Tetris Like
 
+[This page in English.](README.md)
+
 Un "[Tetris](https://tetris.com)" en guise de démonstration de développement de jeu vidéo avec [Delphi](https://www.embarcadero.com/products/delphi) dans un projet multiplateforme utilisant le framework FireMonkey.
 
 Ce programme a été développé lors d'un [live stream sur Twitch](https://www.twitch.tv/patrickpremartin) le 11 et le 18 avril 2021. Il est disponible en tant que ressource éducative et ne doit pas être diffusé en dehors de [ce lien](https://tetrislike.gamolf.fr/).
