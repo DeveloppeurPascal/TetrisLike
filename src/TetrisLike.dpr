@@ -3,7 +3,7 @@
 
   Tetris Like
 
-  Copyright 2021-2025 Patrick PREMARTIN under AGPL 3.0 license.
+  Copyright 2021-2025 Patrick PREMARTIN under MIT license.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -25,7 +25,7 @@
   https://github.com/DeveloppeurPascal/TetrisLike
 
   ***************************************************************************
-  File last update : 2025-10-14T10:32:24.125+02:00
+  File last update : 2025-10-14T11:43:37.917+02:00
   Signature : 014c7d4dbe797ee51da7b7b956bc9c5d79b52928
   ***************************************************************************
 *)
