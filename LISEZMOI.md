@@ -10,7 +10,7 @@ Si vous voulez jouer ou vous renseigner sur [le vrai Tetris](https://tetris.com)
 
 Pour voir comment cette version du [jeu vidéo Tetris](https://tetris.com) a été développée, regardez [la rediffusion de ses sessions de codage](https://serialstreameur.fr/jv-tetris-like.php) sur [le site Serial Streameur](https://serialstreameur.fr/).
 
-Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
+Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Delphi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Utiliser ce jeu vidéo
 
@@ -32,7 +32,7 @@ Je passe par des commentaires au format [XMLDOC](https://docwiki.embarcadero.com
 
 J'utilise régulièrement l'outil [DocInsight](https://devjetsoftware.com/products/documentation-insight/) pour les saisir et contrôler leur formatage.
 
-L'export de la documentation est fait en HTML par [DocInsight](https://devjetsoftware.com/products/documentation-insight/) ou [PasDoc](https://pasdoc.github.io) vers le dossier /docs du dépôt. Vous y avez aussi [accès en ligne](https://developpeurpascal.github.io/TetrisLike) grâce à l'hébergement offert par GitHub Pages.
+L'export de la documentation est fait en HTML par [DocInsight](https://devjetsoftware.com/products/documentation-insight/) ou [PasDoc](https://pasdoc.github.io) vers le dossier /docs du dépôt. Vous y avez aussi [accès en ligne](https://tetrislike.gamolf.fr/dev-corner.html) depuis le site web du projet.
 
 D'autres informations (tutoriels, articles, vidéos, FAQ, présentations et liens) sont disponibles sur [le site web du projet](https://tetrislike.gamolf.fr) ou [le devlog du projet](https://developpeur-pascal.fr/tetris-like.html).
 
@@ -50,7 +50,14 @@ Si vous détectez des anomalies sur des versions antérieures n'hésitez pas à 
 
 ## Licence d'utilisation de ce dépôt de code et de son contenu
 
-Ces codes sources sont distribués sous [licence MIT](LICENSE).
+Ces codes sources sont distribués sous licence [AGPL 3.0 ou ultérieure](https://choosealicense.com/licenses/agpl-3.0/).
+
+Vous êtes libre d'utiliser le contenu de ce dépôt de code n'importe où à condition :
+* d'en faire mention dans vos projets
+* de diffuser les modifications apportées aux fichiers fournis dans ce projet sous licence AGPL (en y laissant les mentions de copyright d'origine (auteur, lien vers ce dépôt, licence) obligatoirement complétées par les vôtres)
+* de diffuser les codes sources de vos créations sous licence AGPL
+
+Si cette licence ne convient pas à vos besoins (notamment pour un projet commercial) je propose aussi [des licences classiques pour les développeurs et les entreprises](https://tetrislike.gamolf.fr).
 
 Certains éléments inclus dans ce dépôt peuvent dépendre de droits d'utilisation de tiers (images, sons, ...). Ils ne sont pas réutilisables dans vos projets sauf mention contraire.
 
@@ -70,10 +77,10 @@ Si vous trouvez ce dépôt de code utile et voulez le montrer, merci de faire un
 
 Vous pouvez utiliser l'un de ces services :
 
-* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
-* Ko-fi [en français](https://ko-fi.com/patrick_premartin_fr) ou [en anglais](https://ko-fi.com/patrick_premartin_en)
 * [Patreon](https://www.patreon.com/patrickpremartin)
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
 * [Liberapay](https://liberapay.com/PatrickPremartin)
+* Ko-fi [en français](https://ko-fi.com/patrick_premartin_fr) ou [en anglais](https://ko-fi.com/patrick_premartin_en)
 
 Vous pouvez acheter une licence d'utilisateur pour [mes logiciels](https://lic.olfsoftware.fr/products.php?lng=fr) et [mes jeux vidéo](https://lic.gamolf.fr/products.php?lng=fr) ou [une licence de développeur pour mes bibliothèques](https://lic.developpeur-pascal.fr/products.php?lng=fr) si vous les utilisez dans vos projets.
 
